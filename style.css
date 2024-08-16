@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(91, 112, 131, 0.582);
+}
+.child{
+    text-align: center;
+    width: 600px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    margin-top: 30px;
+    margin-right: 130px;
+}
+
+.fa-x-twitter{
+    font-size: 40px;
+    color: white;
+    
+}
+.fa-google{
+    font-size: 20px;
+}
+.fa-apple{
+    font-size: 20px;
+}
+button{
+    width: 300px;
+    margin-top: 30px;
+    height: 38px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.input input{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+}
+.or{
+    margin-top: 30px;
+    color: white;
+
+}
+
+.sign-up{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    
+}
+.sign-up a{
+    color: rgb(29, 155, 240);
+}
+.input input::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+.buttonforgot{
+    background-color: transparent;
+    color: white;
+    
+    border: 1px solid rgba(218, 213, 213, 0.686);
+}
+.buttonforgot:hover{
+    background-color: rgba(255, 255, 255, 0.179);
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.755);;
+}
+img{
+    height: 15px;
+    width: 20px;
+    position: relative;
+    right: 10;
+    top: 2px;
+}
